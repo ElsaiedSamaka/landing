@@ -76,7 +76,7 @@ const Footer = () => {
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center ">
-            © 2023 <a class="hover:underline">Flowbite™</a>. All Rights
+            © 2023 <a class="hover:underline">Placeholder™</a>. All Rights
             Reserved.
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
