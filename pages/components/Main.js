@@ -1,3 +1,4 @@
+import Clients from "../views/Clients";
 import Features from "../views/Features";
 import Jumbotron from "../views/Jumbotron";
 
@@ -7,6 +8,7 @@ const Main = () => {
       <Jumbotron />
       <Features />
       <hr class="my-4 w-3/4 h-1 border-2 " />
+      <Clients />
     </section>
   );
 };
