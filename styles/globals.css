@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layout {
+  display: grid;
+  grid:
+    "header" auto
+    "main" 1fr
+    "footer" auto
+    / 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+.header { grid-area: header; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+* { box-sizing: border-box;
+ outline: 1px red dotted;
+}
+body{
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
